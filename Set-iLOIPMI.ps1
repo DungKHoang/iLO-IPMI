@@ -233,6 +233,14 @@ if ($iLOSession)
         write-host -ForegroundColor CYAN " IPMI setting is now...."
         $CurrentIPMISetting
     }
+
+    # ----- Disconnect
+    Disconnect-HPREST -Session $iLOSession
+    if ($ThisConnection)
+    {
+        Disconnect-HPOVMgmt 
+    }
+
 }
 
 
