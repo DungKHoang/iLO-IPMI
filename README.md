@@ -6,7 +6,7 @@ The script requires the following HPE Libraries:
     * HPE iLORest cmdlets
     * HPE OneView PowerShell library 
 
-If you are suing a Windows Server 2012 R2 or Windows 7 machine, you need to install the Windows Management Framework v5.0
+If you are using a Windows Server 2012 R2 or Windows 7 machine, you need to install the Windows Management Framework v5.0
 
 
 ## Intalling the HPE libraries
